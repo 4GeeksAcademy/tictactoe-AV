@@ -9,3 +9,40 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    color: #800080;
+    background: #000;
+}
+
+table {
+    border: 3px solid #800080;
+    padding: 4rem;
+    font-size: 24px;
+    box-shadow: 0px 10px 85px 10px #00ffff;
+    color: #800080;
+}
+
+tr,
+td {
+    padding: 1rem;
+    border: 1px solid #800080;
+    cursor: pointer;
+}
+
+.item {
+    width: 100px;           
+    height: 100px;
+    font-size: 70px;         
+    color: #00ffff;
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    visibility: hidden;
+}
